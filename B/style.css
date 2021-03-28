@@ -1,0 +1,55 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  background-color: #ccc;
+  width: 30%;
+  height: 200px;
+  margin: 50px auto;
+}
+
+.lucky-number {
+  background-color: #000;
+}
+
+.lucky-number h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 200;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.content p {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.content form {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+
+.ip1 {
+  margin-right: 20px;
+  line-height: 30px;
+  width: 40%;
+  border-radius: 5px;
+  color: #ccc;
+  text-align: center;
+}
+
+.ip2 {
+  width: 20%;
+  border-radius: 5px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.ip2:hover,
+.ip2:active {
+  background-color: rgb(56, 54, 54);
+  color: #fff;
+}
